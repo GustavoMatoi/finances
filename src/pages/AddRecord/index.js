@@ -67,7 +67,6 @@ export default function index() {
             <Text style={[{ color: colors.dark_purple, marginLeft: 10, fontSize: 16, fontWeight: 'bold' }]}>Valor:</Text>
             <TextInput style={[styles.botaoInput]} placeholder='Informe o valor da entrada' >
             </TextInput>
-            <Text>Arthur</Text>
             <View>
                 <Text style={[{ color: colors.dark_purple, marginLeft: 10, fontSize: 16, fontWeight: 'bold', marginVertical: '5%' }]}>Por qual maneira será feita a entrada?</Text>
                 <RadioBotao selected={type} onChangeSelect={(type, index) => setType(index)} horizontal={false} options={['Pix', 'Cartão de Crédito', 'Cartão de Débito', 'Boleto']}></RadioBotao>
